@@ -1,7 +1,7 @@
 # leadquest
 
 ## To clone a particular branch
-git clone -b "branch name" https://github.com/Shrey-202267/LeadQuest.git 
+``` git clone -b "branch name" https://github.com/Shrey-202267/LeadQuest.git ```
 
 ## To pull the changes in the current branch
 git pull -b "branch name"
