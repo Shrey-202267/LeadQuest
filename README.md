@@ -1,17 +1,20 @@
 # leadquest
 
 ## To clone a particular branch
-``` git clone -b "branch name" https://github.com/Shrey-202267/LeadQuest.git ```
+```bash
+$ git clone -b "branch name" https://github.com/Shrey-202267/LeadQuest.git ```
 
 ## To pull the changes in the current branch
-git pull -b "branch name"
+```bash
+$git pull -b "branch name"```
 
 
 ## Example Commands for vscode github
 
 Pushing First Time -
 
-1) git init
+1) ``` bash
+$git init```
 2) git add .
 3) git commit -m "first commit"
 4) git branch -M main
