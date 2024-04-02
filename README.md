@@ -35,5 +35,5 @@ Apply latest stash -> 1) got to ... dots
 
 push the changes-> 1) ```git add .```
 		   2) ```git commit -m "second commit"```
-		   3) ```git push-u origin <branch name>```
+		   3) ```git push -u origin <branch name>```
 
