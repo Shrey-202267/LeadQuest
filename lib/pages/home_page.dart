@@ -3,9 +3,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:leadquest/components/Celebration_card.dart';
 import 'package:leadquest/components/Coupan_card.dart';
 import 'package:leadquest/components/performance_card.dart';
 import 'package:leadquest/components/poster.dart';
+import 'package:leadquest/models/celebration.dart';
 import 'package:leadquest/models/performance.dart';
 import 'package:leadquest/models/poster_model.dart';
 import 'package:leadquest/models/shop_and_earn.dart';
@@ -170,6 +172,22 @@ class HomePage extends StatelessWidget {
             ],
           ),
           // )
+
+          Padding(
+            padding: const EdgeInsets.only(top: 20.0, bottom: 20),
+            child: Container(
+              height: 170,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: 4,
+                itemBuilder: (context, index) {
+                  Celebration celebration = Celebration(
+                      ImagePath: 'lib/Images/person3.png', name: 'Shreyash J');
+                  return CelebrationCard(celebration: celebration);
+                },
+              ),
+            ),
+          ),
         ],
       ),
     );
