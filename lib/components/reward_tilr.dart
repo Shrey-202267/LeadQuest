@@ -11,16 +11,16 @@ class RewardTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 5),
+      // margin: EdgeInsets.only(top: ),
       width: 380,
       decoration: BoxDecoration(color: Colors.white),
       child: Column(
         children: [
           Divider(
-            color: Colors.grey[400],
+            color: Colors.grey[300],
           ),
           SizedBox(
-            height: 10,
+            height: 5,
           ),
           Padding(
             padding: const EdgeInsets.only(left: 20.0, right: 20),

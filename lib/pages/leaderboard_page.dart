@@ -7,7 +7,7 @@ class LeaderBoardPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('LeaderBoard Page'),
+        title: const Text('LeaderBoard Page'),
       ),
     );
   }
